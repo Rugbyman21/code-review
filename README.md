@@ -1,8 +1,8 @@
-# _Code_Review_
+# _Java Slice Pizza_
 
-##### _{Brief description of application}, September 17, 2015_
+##### _allows the user to place an order for a pizza, September 18, 2015_
 
-#### By _**Trevor**_
+#### By _**Trevor Scherling**_
 
 ## Description
 
