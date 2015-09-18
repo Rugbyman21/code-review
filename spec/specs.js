@@ -5,4 +5,11 @@ describe('Pizza', function() {
       expect(testPizza.quinity).to.equal(2);
       expect(testPizza.topping).to.equal("pepperoni");
   });
+
+  it("will give a cost to a pizza base on the size, quinity, and topping", function() {
+    var testPizza = new Pizza ("small", 1, "cheese", "pepperoni");
+
+    expect(testPizza.cost).to.equal(7)
+
+  });
 });
