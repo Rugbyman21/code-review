@@ -8,8 +8,9 @@ Pizza.prototype.totalCost = function() {
 
   var toppingList = this.topping.split(" ");
   var toppingNum = toppingList.length;
-  var toppingCost = ((toppingNum * .50) * this.quinity);
+  var toppingCost = ((toppingNum * .50) * this.quinity));
   var sizeCost = 0;
+
 
   if (this.size === "medium") {
     sizeCost = 7;
@@ -23,5 +24,5 @@ Pizza.prototype.totalCost = function() {
 
   var totalCost = toppingCost + (sizeCost * (parseInt(this.quinity)));
   return totalCost;
-  debugger;
+
 };
