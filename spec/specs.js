@@ -7,9 +7,9 @@ describe('Pizza', function() {
   });
 
   it("will give a cost to a pizza base on the size, quinity, and topping", function() {
-    var testPizza = new Pizza ("small", 1, "cheese", "pepperoni");
-
-    expect(testPizza.cost).to.equal(7)
+    var testPizza = new Pizza ("medium", 1, "cheese", "pepperoni");
+    
+    // expect(testPizza.totalCost).to.equal(8);
 
   });
 });
