@@ -52,19 +52,4 @@ $(document).ready(function() {
     $("input#quinityOfPizza").val("");
 
   });
-
- //  $("#addNewPizza").click(function(){
- //   $("#pizzaForms").append("<div class='pizzaCreation'><label for='pizzaSize'>Pizza Size: </label>" + "<select id='size'>" +     "<option>Select Size</option>" +
- //   "<option value='x-large'>X-Large</option>" +
- //   "<option value='large'>Large</option>" +
- //   "<option value='medium'>Medium</option>" +
- //   "<option value='small'>Small</option>" +
- //   "</select>" +
- //   "<label for='topping'>Toppings</label>" +
- //   "<input type='text' id='topping' placeholder='pepperoni, cheese, etc.'>" +
- //   "<label for='numberOfPizza'>Number of Pizza's:</label>" +
- //   "<input type='text' id='numberOfPizza'> </div>");
- // });
-
-
 });

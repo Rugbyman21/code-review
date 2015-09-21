@@ -1,46 +1,41 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>Java Slice Pizza</title>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-  <link rel="stylesheet" href="css/styles.css" media="screen" title="no title" charset="utf-8">
-  <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
-  <script src="js/scripts.js"></script>
-</head>
-<body>
-  <div class="container">
-    <div class="jumbotron">
-      <h1>Java Slice Pizza</h1>
-      <form id="pizzaOrder">
-        <div id="pizzaForms">
-          <div class="pizzaCreation">
-            <label for="pizzaSize">Pizza Size: </label>
-            <select id="size">
-              <option>Select Size</option>
-              <option value="x-large">X-Large</option>
-              <option value="large">Large</option>
-              <option value="medium">Medium</option>
-              <option value="small">Small</option>
-            </select>
-            <label for="topping">Toppings</label>
-            <input type="text" id="topping" placeholder="pepperoni, cheese, etc.">
-            <label for="quinityOfPizza">Number of Pizza's:</label>
-            <input type="text" id="quinityOfPizza">
+  <head>
+    <title>Java Slice Pizza</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css" media="screen" title="no title" charset="utf-8">
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="js/scripts.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h1>Java Slice Pizza</h1>
+        <form id="pizzaOrder">
+          <div id="pizzaForms">
+            <div class="pizzaCreation">
+              <label for="pizzaSize">Pizza Size: </label>
+              <select id="size">
+                <option>Select Size</option>
+                <option value="x-large">X-Large</option>
+                <option value="large">Large</option>
+                <option value="medium">Medium</option>
+                <option value="small">Small</option>
+              </select>
+              <label for="topping">Toppings</label>
+              <input type="text" id="topping" placeholder="pepperoni, cheese, etc.">
+              <label for="quinityOfPizza">Number of Pizza's:</label>
+              <input type="text" id="quinityOfPizza">
+            </div>
           </div>
+          <button name="submit" class="btn btn-large btn-success">Order</button>
+        </form>
+        <div id="pizzaCostDisplay">
+          <h2>Total Cost:</h2>
+          <h3 id="costForAllPizza"></h3>
+          <h5 id="totalCost"></h5>
         </div>
-        <button name="submit" class="btn btn-large btn-success">Order</button>
-      </form>
-      <button id="addNewPizza" class="btn btn-large btn-primary">Add Another Pizza</button>
-
-
-      <div id="pizzaCostDisplay">
-        <h2>Total Cost:</h2>
-        <h3 id="costForAllPizza"></h3>
-        <h5 id="totalCost"></h5>
       </div>
     </div>
-  </div>
-
-
-</body>
+  </body>
 </html>
