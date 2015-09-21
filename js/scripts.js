@@ -1,17 +1,13 @@
 function Pizza(size, quinity, topping) {
-// debugger;
   this.size = size;
   this.quinity = quinity;
   this.topping = topping;
 };
 
 Pizza.prototype.totalCost = function() {
-// debugger;
-
   var toppingList = this.topping.split(" ");
   var toppingCost = ((toppingList.length * .50) * (this.quinity));
   var sizeCost = 0;
-
 
   if (this.size === "large") {
     sizeCost = 10;
@@ -22,14 +18,9 @@ Pizza.prototype.totalCost = function() {
   } else {
     sizeCost = 12;
   }
-// debugger;
-
 
   var totalCost = toppingCost + (sizeCost * (parseInt(this.quinity)));
-
-
   return totalCost;
-
 };
 
 $(document).ready(function() {

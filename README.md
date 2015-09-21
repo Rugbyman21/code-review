@@ -1,6 +1,6 @@
-# _Java Slice Pizza (working progress)_
+# _Java Slice Pizza_
 
-##### _allows the user to place an order for a pizza, September 18, 2015_
+##### _Allows the user to place an order for a pizza, September 20, 2015_
 
 #### By _**Trevor Scherling**_
 
@@ -13,6 +13,10 @@ _The user can place an order of pizza and the toppings that they want on the piz
 * _clone this repository on the local computer with https://github.com/Rugbyman21/code-review.git_
 * _open folder 'code-review'_
 * _open 'pizza.html' in preferred browser_
+* _click what size of pizza you want_
+* _In the toppings space out the toppings (ex. "pepperoni, cheese, ect.")_
+* _type a number in the Number of Pizza's (ex. 1)_
+* _click Order_
 
 ## Technologies Used
 
