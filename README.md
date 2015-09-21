@@ -6,7 +6,7 @@
 
 ## Description
 
-_The user can place an order of pizza and the toppings that they want on the pizza. Then it will total up the cost of the topping and how many pizza's the user chooses._
+_The user can place an order of pizza and the toppings that they want on the pizza. Then it will total up the cost of the toppings and how many number of pizzas the user chooses._
 
 ## Setup
 
@@ -14,8 +14,8 @@ _The user can place an order of pizza and the toppings that they want on the piz
 * _open folder 'code-review'_
 * _open 'pizza.html' in preferred browser_
 * _click what size of pizza you want_
-* _In the toppings space out the toppings (ex. "pepperoni, cheese, ect.")_
-* _type a number in the Number of Pizza's (ex. 1)_
+* _In the toppings, space out the different toppings in the box (ex. "pepperoni, cheese, ect.")_
+* _type a number in the Number of Pizza's box (ex. 1)_
 * _click Order_
 
 ## Technologies Used
